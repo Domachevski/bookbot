@@ -9,7 +9,7 @@ def main():
     print(f"Words in a book:{word_count}")
     print()
     for item in char_list:
-        print(f"The '{item['char']} character was found {item['num']} times")
+        print(f"The '{item['char']}' character was found {item['num']} times")
 
 def get_book_text(path):
     with open(path) as f:
